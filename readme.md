@@ -1,6 +1,6 @@
 ## Experiments with ZDD Mapper
 
-These experiments were included in "Using ZDDs in the mapping of quantum circuits." This paper was presented at Quantup Physics and Logic (QPL) 2019. 
+These experiments were included in "Using ZDDs in the mapping of quantum circuits." This paper was presented at Quantum Physics and Logic (QPL) 2019. 
 
 ### Dependencies 
 
