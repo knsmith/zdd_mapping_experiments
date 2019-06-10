@@ -1,3 +1,6 @@
 # Mac files
 .DS_Store
 quil_benchmarks/.DS_Store
+quil_benchmarks/small_test/.DS_Store
+quil_benchmarks/small_test/larger_ones/.DS_Store
+quil_benchmarks/phasefold_transformed_qc/.DS_Store
