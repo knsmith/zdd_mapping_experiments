@@ -1,0 +1,672 @@
+X 0
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+H 6
+T 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+H 7
+T 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+H 8
+T 8
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+RZ(-pi/4) 4
+T 8
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 8
+CNOT 5 8
+CNOT 8 0
+CNOT 0 5
+RZ(-pi/2) 5
+S 0
+CNOT 8 5
+RZ(-pi/2) 5
+CNOT 8 0
+CNOT 0 5
+CNOT 5 8
+H 8
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+T 4
+RZ(-pi/4) 8
+CNOT 7 4
+T 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+X 5
+X 1
+X 2
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+X 3
+X 4
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+H 5
+T 4
+T 7
+T 5
+CNOT 4 7
+CNOT 7 5
+CNOT 5 4
+RZ(-pi/4) 4
+RZ(-pi/4) 7
+T 5
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 5
+CNOT 5 4
+CNOT 4 7
+H 5
+H 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+X 5
+X 1
+X 2
+X 3
+X 4
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+RZ(-pi/4) 4
+T 8
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 8
+CNOT 5 8
+CNOT 8 0
+CNOT 0 5
+RZ(-pi/2) 5
+S 0
+CNOT 8 5
+RZ(-pi/2) 5
+CNOT 8 0
+CNOT 0 5
+CNOT 5 8
+H 8
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+T 4
+RZ(-pi/4) 8
+CNOT 7 4
+T 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+X 5
+X 1
+X 2
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+X 3
+X 4
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+H 5
+T 4
+T 7
+T 5
+CNOT 4 7
+CNOT 7 5
+CNOT 5 4
+RZ(-pi/4) 4
+RZ(-pi/4) 7
+T 5
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 5
+CNOT 5 4
+CNOT 4 7
+H 5
+H 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+X 5
+X 1
+X 2
+X 3
+X 4
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+RZ(-pi/4) 4
+T 8
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 8
+CNOT 5 8
+CNOT 8 0
+CNOT 0 5
+RZ(-pi/2) 5
+S 0
+CNOT 8 5
+RZ(-pi/2) 5
+CNOT 8 0
+CNOT 0 5
+CNOT 5 8
+H 8
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+T 4
+RZ(-pi/4) 8
+CNOT 7 4
+T 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+X 5
+X 1
+X 2
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+X 3
+X 4
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+H 5
+T 4
+T 7
+T 5
+CNOT 4 7
+CNOT 7 5
+CNOT 5 4
+RZ(-pi/4) 4
+RZ(-pi/4) 7
+T 5
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 5
+CNOT 5 4
+CNOT 4 7
+H 5
+H 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+X 5
+X 1
+X 2
+X 3
+X 4
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+RZ(-pi/4) 4
+T 8
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 8
+Z 0
+CNOT 5 8
+CNOT 8 0
+CNOT 0 5
+RZ(-pi/2) 5
+S 0
+CNOT 8 5
+RZ(-pi/2) 5
+CNOT 8 0
+CNOT 0 5
+CNOT 5 8
+H 0
+H 8
+RZ(-pi/4) 8
+CNOT 4 7
+CNOT 7 8
+CNOT 8 4
+T 4
+RZ(-pi/4) 8
+CNOT 7 4
+T 4
+CNOT 7 8
+CNOT 8 4
+CNOT 4 7
+H 8
+H 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+X 5
+X 1
+X 2
+H 1
+H 2
+H 3
+H 4
+H 5
+X 5
+X 1
+X 2
+X 3
+X 4
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+RZ(-pi/4) 1
+T 6
+CNOT 2 1
+RZ(-pi/4) 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+RZ(-pi/4) 3
+T 7
+CNOT 6 3
+RZ(-pi/4) 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+H 5
+T 4
+T 7
+T 5
+CNOT 4 7
+CNOT 7 5
+CNOT 5 4
+RZ(-pi/4) 4
+RZ(-pi/4) 7
+T 5
+CNOT 7 4
+RZ(-pi/4) 4
+CNOT 7 5
+CNOT 5 4
+CNOT 4 7
+H 5
+H 7
+RZ(-pi/4) 7
+CNOT 3 6
+CNOT 6 7
+CNOT 7 3
+T 3
+RZ(-pi/4) 7
+CNOT 6 3
+T 3
+CNOT 6 7
+CNOT 7 3
+CNOT 3 6
+H 7
+H 6
+RZ(-pi/4) 6
+CNOT 1 2
+CNOT 2 6
+CNOT 6 1
+T 1
+RZ(-pi/4) 6
+CNOT 2 1
+T 1
+CNOT 2 6
+CNOT 6 1
+CNOT 1 2
+H 6
+X 5
+X 1
+X 2
+X 3
+X 4
+H 1
+H 2
+H 3
+H 4
+H 5
+Z 1
+X 1
+Z 1
+X 1

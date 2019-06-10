@@ -1,0 +1,225 @@
+PRAGMA EXPECTED_REWIRING "#(0 1 2 3 4)"
+RZ(-pi/2) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(-pi/4) 0
+RX(pi/2) 0
+CZ 0 4
+RX(-pi/2) 0
+CZ 1 0
+RZ(pi/2) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RZ(-pi/2) 1
+RX(-pi/2) 1
+CZ 0 1
+RZ(2.5420811598071484) 0
+RX(pi/2) 0
+RZ(0.8806326290515374) 0
+RX(-pi/2) 0
+RX(pi/2) 4
+RZ(2.4449550201389156) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(-1.1603949773248434) 0
+RX(pi/2) 0
+RZ(-pi/2) 4
+RX(-pi/2) 4
+CZ 4 0
+RX(pi/2) 4
+CZ 4 0
+RZ(pi/2) 0
+RX(pi/2) 0
+RZ(pi/4) 1
+RX(pi/2) 1
+CZ 1 0
+CZ 4 0
+RZ(-1.4820357968483258) 0
+RX(pi/2) 0
+RZ(-0.450158727091325) 4
+RX(pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RZ(pi/2) 2
+RX(pi/2) 2
+RZ(pi/2) 2
+RX(-pi/2) 0
+CZ 4 0
+RZ(-pi/2) 0
+CZ 3 4
+RZ(pi) 3
+RX(-pi/2) 3
+RZ(3*pi/4) 4
+RX(pi/2) 4
+CZ 4 3
+CZ 2 3
+CZ 4 3
+RZ(-3*pi/4) 3
+RX(pi/2) 3
+RZ(pi) 4
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RZ(-pi/2) 2
+RX(-pi/2) 2
+RZ(-pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RX(-pi/2) 2
+RZ(-pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+CZ 4 3
+RZ(pi) 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RZ(-pi/2) 0
+RX(pi/2) 0
+CZ 0 4
+RZ(pi) 0
+RX(-pi/2) 0
+RZ(-3*pi/4) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 1
+RX(pi/2) 1
+CZ 1 0
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RZ(pi) 4
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RZ(1.3332617771832909) 0
+RX(pi/2) 0
+RZ(1.3396933385812366) 0
+RX(-pi/2) 0
+RX(pi/2) 4
+RZ(2.484002599158396) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(0.8130970493606376) 0
+RX(-pi/2) 0
+RX(pi/2) 4
+CZ 4 0
+RX(pi/2) 0
+RZ(3*pi/4) 1
+RX(pi/2) 1
+CZ 1 0
+RX(pi/2) 4
+CZ 4 0
+RZ(-3.013784544623743) 0
+RX(pi/2) 0
+RZ(-2.8117147755815637) 4
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RZ(pi/2) 2
+RX(-pi/2) 0
+CZ 4 0
+RZ(pi) 3
+RX(pi/2) 3
+CZ 3 4
+RZ(pi) 3
+RX(-pi/2) 3
+RZ(-3*pi/4) 4
+RX(pi/2) 4
+CZ 4 3
+CZ 2 3
+CZ 4 3
+RZ(3*pi/4) 3
+RX(pi/2) 3
+RZ(pi) 4
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RZ(-pi/2) 2
+RX(-pi/2) 2
+RZ(pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RX(-pi/2) 2
+RZ(pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+CZ 4 3
+RZ(pi) 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RX(-pi/2) 2
+RZ(pi) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(-pi/2) 0
+RX(pi/2) 1
+RZ(pi/2) 1
+RZ(-pi/2) 2
+RX(-pi/2) 3
+RZ(pi/2) 3
+RZ(pi/2) 4
+RX(pi) 4
+PRAGMA CURRENT_REWIRING "#(0 1 2 3 4)"
+HALT
+#DEPTH: 98 |VOL.: 221 |2Q GATE COUNT: 58

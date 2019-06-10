@@ -1,0 +1,312 @@
+PRAGMA EXPECTED_REWIRING "#(0 1 2 3 4)"
+RZ(-pi/2) 0
+RX(pi/2) 0
+CZ 0 4
+RX(-pi/2) 0
+CZ 1 0
+RZ(pi/2) 4
+RX(pi/2) 4
+CZ 4 0
+RX(pi/2) 0
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RZ(-pi/2) 1
+RX(-pi/2) 1
+CZ 0 1
+RZ(2.114857872344168) 0
+RX(-pi/2) 0
+RX(pi/2) 4
+RZ(-0.723432842826373) 4
+RX(pi/2) 4
+CZ 4 0
+RX(-pi/2) 0
+RX(pi/2) 4
+CZ 4 0
+RX(pi/2) 0
+RZ(-3*pi/4) 1
+RX(pi/2) 1
+CZ 1 0
+RZ(2.048436712354984) 4
+RX(pi/2) 4
+RZ(0.9210178302966952) 4
+RX(-pi/2) 4
+RZ(-1.8742846402900202) 4
+CZ 4 0
+RZ(-1.5088310062238204) 0
+RX(pi/2) 0
+RZ(-1.9750143835782872) 4
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RZ(pi/2) 0
+CZ 4 3
+RX(-pi/2) 4
+CZ 0 4
+RZ(-pi/2) 0
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi/2) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(pi/2) 2
+RX(pi/2) 2
+RX(-pi/2) 3
+CZ 2 3
+RX(-pi/2) 2
+RZ(pi) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(pi) 1
+RX(pi/2) 1
+CZ 1 0
+RX(-pi/2) 1
+RZ(pi) 2
+RX(pi/2) 2
+CZ 2 1
+RZ(3*pi/4) 1
+RX(pi/2) 1
+CZ 1 0
+RZ(-3*pi/4) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RX(-pi/2) 0
+RZ(pi) 1
+RX(pi/2) 1
+CZ 1 0
+RX(-pi/2) 1
+CZ 2 1
+RZ(pi) 0
+RX(pi/2) 0
+CZ 0 1
+RZ(-0.23093545470495425) 1
+RX(pi/2) 1
+RZ(-0.7863174089335164) 2
+RX(pi/2) 2
+RZ(0.9557502866527069) 2
+RX(-pi/2) 2
+CZ 1 2
+RX(pi/2) 1
+RZ(-1.0466669872612915) 2
+RX(-pi/2) 2
+CZ 1 2
+RX(-pi/2) 0
+RX(-pi/2) 1
+CZ 1 0
+RZ(-0.9544496794514341) 1
+RX(-pi/2) 1
+RX(pi/2) 2
+RZ(2.9106571988848384) 2
+RX(-pi/2) 2
+CZ 2 1
+RX(-pi/2) 3
+RZ(pi/2) 3
+CZ 0 1
+CZ 2 3
+CZ 2 1
+RX(pi/2) 1
+RX(-pi/2) 2
+CZ 1 2
+RX(-pi/2) 1
+RZ(pi) 2
+RX(pi/2) 2
+CZ 2 1
+RZ(pi/2) 4
+RZ(pi/2) 3
+RX(pi/2) 3
+RZ(pi/2) 3
+RZ(-3*pi/4) 0
+RX(pi/2) 0
+CZ 0 1
+RX(-pi/2) 2
+RZ(pi/2) 2
+RX(-pi/2) 0
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RZ(-pi/2) 4
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(-pi/2) 0
+RX(-pi/2) 4
+CZ 3 4
+RZ(-pi/2) 3
+RX(-pi/2) 3
+RZ(-pi/4) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(pi/2) 2
+RX(pi/2) 2
+RX(-pi/2) 3
+CZ 2 3
+RX(-pi/2) 2
+RZ(pi) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(-3*pi/4) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi/2) 0
+RX(pi/2) 0
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(pi) 2
+RX(pi/2) 2
+CZ 2 1
+RZ(pi) 0
+RX(pi/2) 0
+CZ 0 1
+RZ(-2.5863869463652187) 1
+RX(pi/2) 1
+RZ(1.618024129546901) 2
+RX(pi/2) 2
+RZ(1.5236211061036515) 2
+RX(-pi/2) 2
+CZ 1 2
+RX(pi/2) 1
+RZ(-0.7865125680804255) 2
+RX(-pi/2) 2
+CZ 1 2
+RX(-pi/2) 0
+RX(-pi/2) 1
+CZ 1 0
+RZ(3.0748520237314128) 1
+RX(-pi/2) 1
+RX(pi/2) 2
+RZ(1.3406038706220234) 2
+RX(-pi/2) 2
+CZ 2 1
+RX(-pi/2) 3
+CZ 4 3
+RZ(pi) 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+CZ 0 1
+CZ 2 3
+CZ 2 1
+RX(pi/2) 1
+RX(-pi/2) 2
+CZ 1 2
+RX(-pi/2) 1
+RZ(pi) 2
+RX(pi/2) 2
+CZ 2 1
+RZ(pi/2) 4
+RX(pi/2) 3
+RZ(pi/2) 3
+RZ(3*pi/4) 0
+RX(pi/2) 0
+CZ 0 1
+RX(-pi/2) 2
+RZ(pi/2) 2
+RX(-pi/2) 0
+CZ 4 0
+RZ(pi) 0
+RX(pi/2) 0
+RZ(-pi/2) 4
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RX(-pi/2) 4
+CZ 3 4
+RZ(3*pi/4) 4
+RX(pi/2) 4
+CZ 4 0
+RX(pi/2) 0
+RX(-pi/2) 4
+CZ 0 4
+RX(-pi/2) 0
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 0
+RZ(-pi/2) 3
+RX(-pi/2) 3
+RZ(pi/4) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(pi/2) 2
+RX(pi/2) 2
+RX(-pi/2) 3
+CZ 2 3
+RX(-pi/2) 2
+RZ(pi) 3
+RX(pi/2) 3
+CZ 3 2
+RZ(pi) 2
+RX(pi/2) 2
+CZ 2 1
+RZ(pi) 0
+RX(pi/2) 0
+CZ 0 1
+RZ(2.739787384570739) 1
+RX(-pi/2) 1
+RZ(-3.061137651820525) 2
+RX(pi/2) 2
+RZ(2.3545744923538185) 2
+RX(-pi/2) 2
+CZ 1 2
+RX(pi/2) 1
+RZ(1.6276558817469946) 2
+RX(-pi/2) 2
+CZ 1 2
+RZ(pi) 0
+RX(pi/2) 0
+RX(pi/2) 1
+RZ(3.0846409613763393) 1
+RX(-pi/2) 1
+RZ(2.9257967924344612) 1
+CZ 0 1
+RZ(0.21579586115534058) 1
+RX(-pi/2) 1
+RX(pi/2) 2
+CZ 1 2
+RZ(pi/2) 1
+RX(-pi/2) 1
+RZ(1.1872034324165013) 2
+RX(pi/2) 2
+CZ 2 1
+CZ 0 1
+RZ(pi/2) 0
+RX(-pi/2) 0
+RZ(-pi/2) 0
+RZ(-pi/2) 1
+RX(-pi/2) 2
+RZ(pi/2) 2
+RX(-pi/2) 3
+RZ(pi/2) 3
+RX(-pi/2) 4
+RZ(pi/2) 4
+PRAGMA CURRENT_REWIRING "#(0 1 2 3 4)"
+HALT
+#DEPTH: 95 |VOL.: 308 |2Q GATE COUNT: 79

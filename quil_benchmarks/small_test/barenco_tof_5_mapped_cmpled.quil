@@ -1,0 +1,686 @@
+PRAGMA EXPECTED_REWIRING "#(0 1 2 3 4 5 6 7 8)"
+RZ(-pi/4) 7
+RX(pi/2) 7
+CZ 7 6
+RZ(-pi/4) 0
+RX(pi/2) 0
+CZ 0 8
+RX(-pi/2) 0
+CZ 1 0
+RZ(pi/2) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 8
+CZ 0 8
+RX(-pi/2) 0
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(pi) 0
+RX(pi/2) 0
+RZ(-pi/2) 1
+RX(-pi/2) 1
+CZ 0 1
+RZ(2.5420811598071484) 0
+RX(pi/2) 0
+RZ(0.8806326290515374) 0
+RX(-pi/2) 0
+RX(pi/2) 8
+RZ(2.4449550201389156) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(-1.1603949773248434) 0
+RX(pi/2) 0
+RZ(-pi/2) 8
+RX(-pi/2) 8
+CZ 8 0
+RX(pi/2) 8
+CZ 8 0
+RZ(pi/2) 0
+RX(pi/2) 0
+RZ(pi/4) 1
+RX(pi/2) 1
+CZ 1 0
+CZ 8 0
+RZ(-1.4820357968483258) 0
+RX(pi/2) 0
+RZ(-0.450158727091325) 8
+RX(pi/2) 8
+CZ 0 8
+RX(-pi/2) 0
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RZ(pi/2) 6
+RX(pi/2) 6
+RZ(pi/2) 6
+RX(-pi/2) 0
+CZ 8 0
+RZ(-pi/4) 5
+RX(pi/2) 5
+CZ 5 4
+CZ 7 8
+RZ(pi) 7
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+CZ 6 7
+RZ(pi) 8
+RX(-pi/2) 8
+RZ(-pi/4) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(-3*pi/4) 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(-pi/2) 6
+RX(-pi/2) 6
+RZ(-pi/4) 6
+RX(pi/2) 6
+CZ 6 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+CZ 6 7
+CZ 8 7
+RZ(pi) 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(pi/2) 4
+RX(pi/2) 4
+RZ(pi/2) 4
+RX(pi/2) 6
+RZ(-2.9148875505076717) 6
+RX(-pi/2) 6
+RX(pi/2) 7
+RZ(3.0911207062193484) 7
+RX(-pi/2) 7
+CZ 6 7
+RZ(-pi/2) 6
+RX(-pi/2) 6
+RZ(pi) 7
+RX(pi/2) 7
+CZ 6 7
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 7
+RZ(-pi/2) 3
+RX(pi/2) 3
+CZ 3 2
+CZ 5 6
+RX(-pi/2) 5
+RZ(-1.5203243794244514) 6
+RX(pi/2) 6
+CZ 6 5
+CZ 4 5
+RX(-pi/2) 6
+RZ(-pi/4) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(-3*pi/4) 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(-pi/2) 4
+RX(-pi/2) 4
+RZ(-pi/4) 4
+RX(pi/2) 4
+CZ 4 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+CZ 4 5
+CZ 6 5
+RZ(pi) 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi/2) 2
+RX(pi/2) 2
+RZ(pi/2) 2
+RX(pi/2) 4
+RZ(2.526955891761956) 4
+RX(pi/2) 4
+RX(pi/2) 5
+RZ(-0.31919595689919333) 5
+RX(pi/2) 5
+CZ 4 5
+RX(pi/2) 4
+RX(-pi/2) 5
+CZ 4 5
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(-2.0369985332931506) 4
+RX(pi/2) 4
+CZ 4 3
+CZ 2 3
+CZ 4 3
+RZ(-3*pi/4) 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RZ(-pi/2) 2
+RX(-pi/2) 2
+RZ(-pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RX(-pi/2) 2
+RZ(-pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+CZ 4 3
+RZ(pi) 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RX(pi/2) 5
+RZ(-2.1854330886227338) 5
+RX(pi/2) 4
+CZ 4 5
+CZ 6 5
+RZ(-pi/2) 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi) 4
+RX(-pi/2) 4
+RZ(pi) 5
+RX(pi/2) 5
+CZ 5 4
+RZ(pi) 5
+RX(pi/2) 5
+RZ(0.24218954905494747) 5
+RX(-pi/2) 5
+RZ(-2.091008101349238) 6
+RX(-pi/2) 6
+CZ 6 5
+RX(-pi/2) 5
+RX(pi/2) 6
+CZ 6 5
+RZ(2.0320923052610147) 5
+RX(pi/2) 5
+RZ(2.2313655146464155) 5
+RX(-pi/2) 5
+CZ 5 4
+RZ(-2.460709901983604) 5
+RX(-pi/2) 5
+RX(-pi/2) 6
+RZ(1.0275877124523958) 6
+RX(-pi/2) 6
+CZ 6 5
+RZ(pi) 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi) 5
+RX(pi/2) 5
+CZ 5 4
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi/2) 7
+RX(pi/2) 7
+RZ(-1.3440912237127751) 7
+RZ(-pi/2) 0
+RX(pi/2) 6
+CZ 6 7
+CZ 8 7
+RZ(-pi/2) 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(pi) 6
+RX(-pi/2) 6
+RZ(pi) 7
+RX(pi/2) 7
+CZ 7 6
+RZ(pi) 7
+RX(pi/2) 7
+RZ(0.24218954905494747) 7
+RX(-pi/2) 7
+RZ(-2.091008101349238) 8
+RX(-pi/2) 8
+CZ 8 7
+RX(-pi/2) 7
+RX(pi/2) 8
+CZ 8 7
+RZ(2.0320923052610147) 7
+RX(pi/2) 7
+RZ(2.2313655146464155) 7
+RX(-pi/2) 7
+CZ 7 6
+RZ(-2.460709901983604) 7
+RX(-pi/2) 7
+RX(-pi/2) 8
+RZ(1.0275877124523958) 8
+RX(-pi/2) 8
+CZ 8 7
+RZ(pi) 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(pi) 7
+RX(pi/2) 7
+CZ 7 6
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(-pi/2) 0
+RX(pi/2) 0
+CZ 0 8
+RZ(pi) 0
+RX(-pi/2) 0
+RZ(-3*pi/4) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(pi) 1
+RX(pi/2) 1
+CZ 1 0
+CZ 8 0
+RZ(pi) 0
+RX(pi/2) 0
+RZ(pi) 8
+RX(-pi/2) 8
+CZ 0 8
+RX(-pi/2) 0
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RZ(1.3332617771832909) 0
+RX(pi/2) 0
+RZ(1.3396933385812366) 0
+RX(-pi/2) 0
+RX(pi/2) 8
+RZ(2.484002599158396) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(0.8130970493606376) 0
+RX(-pi/2) 0
+RX(pi/2) 8
+CZ 8 0
+RX(pi/2) 0
+RZ(3*pi/4) 1
+RX(pi/2) 1
+CZ 1 0
+RX(pi/2) 8
+CZ 8 0
+RZ(-3.013784544623743) 0
+RX(pi/2) 0
+RZ(-2.8117147755815637) 8
+RX(-pi/2) 8
+CZ 0 8
+RX(-pi/2) 0
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 0
+RZ(pi) 0
+RX(pi/2) 0
+RX(-pi/2) 1
+CZ 0 1
+RZ(-pi/2) 6
+RX(-pi/2) 0
+CZ 8 0
+RX(pi/2) 8
+CZ 8 7
+RX(pi/2) 7
+RZ(pi) 8
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(pi) 7
+RX(pi/2) 7
+CZ 7 6
+RX(pi/2) 7
+RZ(-0.2694672635257831) 7
+RX(pi/2) 7
+RZ(-3.1147916256073405) 8
+RX(-pi/2) 8
+CZ 8 7
+RX(-pi/2) 7
+RX(pi/2) 8
+CZ 8 7
+RZ(0.7855777586707612) 7
+RX(pi/2) 7
+RZ(1.5518462726871645) 7
+RX(-pi/2) 7
+CZ 7 6
+RZ(-1.5897497843446624) 7
+RX(-pi/2) 7
+RX(pi/2) 8
+RZ(-2.625661753718129) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(pi) 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(pi) 7
+RX(pi/2) 7
+CZ 7 6
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(-pi/2) 4
+RZ(pi/2) 6
+RX(pi/2) 6
+CZ 6 7
+RX(pi/2) 6
+CZ 6 5
+RX(pi/2) 5
+RZ(pi) 6
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi) 5
+RX(pi/2) 5
+CZ 5 4
+RX(pi/2) 5
+RZ(-0.2694672635257831) 5
+RX(pi/2) 5
+RZ(-3.1147916256073405) 6
+RX(-pi/2) 6
+CZ 6 5
+RX(-pi/2) 5
+RX(pi/2) 6
+CZ 6 5
+RZ(0.7855777586707612) 5
+RX(pi/2) 5
+RZ(1.5518462726871645) 5
+RX(-pi/2) 5
+CZ 5 4
+RZ(-1.5897497843446624) 5
+RX(-pi/2) 5
+RX(pi/2) 6
+RZ(-2.625661753718129) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi) 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi) 5
+RX(pi/2) 5
+CZ 5 4
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi/2) 2
+RZ(pi/2) 4
+RX(pi/2) 4
+CZ 4 5
+RZ(pi) 3
+RX(pi/2) 3
+CZ 3 4
+RZ(pi) 3
+RX(-pi/2) 3
+RZ(-3*pi/4) 4
+RX(pi/2) 4
+CZ 4 3
+CZ 2 3
+CZ 4 3
+RZ(3*pi/4) 3
+RX(pi/2) 3
+RZ(pi) 4
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RZ(-pi/2) 2
+RX(-pi/2) 2
+RZ(pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RX(-pi/2) 2
+RZ(pi/4) 2
+RX(pi/2) 2
+CZ 2 3
+CZ 4 3
+RZ(pi) 3
+RX(pi/2) 3
+RX(-pi/2) 4
+CZ 3 4
+RX(-pi/2) 3
+RZ(pi) 4
+RX(pi/2) 4
+CZ 4 3
+RZ(pi/2) 5
+RZ(pi/4) 4
+RX(pi/2) 4
+CZ 4 5
+CZ 6 5
+RZ(-pi/2) 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RZ(pi) 4
+RX(-pi/2) 4
+RZ(pi) 5
+RX(pi/2) 5
+CZ 5 4
+RZ(pi) 5
+RX(pi/2) 5
+RZ(0.24218954905494747) 5
+RX(-pi/2) 5
+RZ(-2.091008101349238) 6
+RX(-pi/2) 6
+CZ 6 5
+RX(-pi/2) 5
+RX(pi/2) 6
+CZ 6 5
+RZ(2.0320923052610147) 5
+RX(pi/2) 5
+RZ(2.2313655146464155) 5
+RX(-pi/2) 5
+CZ 5 4
+RZ(-2.460709901983604) 5
+RX(-pi/2) 5
+RX(-pi/2) 6
+RZ(1.0275877124523958) 6
+RX(-pi/2) 6
+CZ 6 5
+RZ(pi) 5
+RX(pi/2) 5
+RX(-pi/2) 6
+CZ 5 6
+RX(-pi/2) 5
+RZ(pi) 6
+RX(pi/2) 6
+CZ 6 5
+RX(pi/2) 5
+CZ 5 4
+RX(-pi/2) 6
+CZ 5 6
+RZ(pi) 5
+RX(pi/2) 5
+RX(pi/2) 6
+CZ 6 5
+RZ(pi/2) 7
+RZ(pi/4) 6
+RX(pi/2) 6
+CZ 6 7
+CZ 8 7
+RZ(-pi/2) 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RZ(pi) 6
+RX(-pi/2) 6
+RZ(pi) 7
+RX(pi/2) 7
+CZ 7 6
+RZ(pi) 7
+RX(pi/2) 7
+RZ(0.24218954905494747) 7
+RX(-pi/2) 7
+RZ(-2.091008101349238) 8
+RX(-pi/2) 8
+CZ 8 7
+RX(-pi/2) 7
+RX(pi/2) 8
+CZ 8 7
+RZ(2.0320923052610147) 7
+RX(pi/2) 7
+RZ(2.2313655146464155) 7
+RX(-pi/2) 7
+CZ 7 6
+RZ(-2.460709901983604) 7
+RX(-pi/2) 7
+RX(-pi/2) 8
+RZ(1.0275877124523958) 8
+RX(-pi/2) 8
+CZ 8 7
+RZ(pi) 7
+RX(pi/2) 7
+RX(-pi/2) 8
+CZ 7 8
+RX(-pi/2) 7
+RZ(pi) 8
+RX(pi/2) 8
+CZ 8 7
+RX(pi/2) 7
+CZ 7 6
+RX(-pi/2) 8
+CZ 7 8
+RZ(pi) 7
+RX(pi/2) 7
+RX(pi/2) 8
+CZ 8 7
+RX(pi/2) 2
+RX(pi/2) 3
+CZ 3 2
+RZ(pi/4) 4
+RX(pi/2) 4
+CZ 4 5
+RZ(pi/4) 6
+RX(pi/2) 6
+CZ 6 7
+RZ(-pi/2) 0
+RX(pi/2) 1
+RZ(pi/2) 1
+RZ(-pi/2) 2
+RX(pi) 2
+RX(pi/2) 3
+RZ(pi/2) 3
+RX(-pi/2) 4
+RZ(pi/2) 4
+RZ(pi/2) 5
+RX(-pi/2) 6
+RZ(pi/2) 6
+RZ(pi/2) 7
+RZ(pi/2) 8
+RX(pi) 8
+PRAGMA CURRENT_REWIRING "#(0 1 2 3 4 5 6 7 8)"
+HALT
+#DEPTH: 155 |VOL.: 682 |2Q GATE COUNT: 177
